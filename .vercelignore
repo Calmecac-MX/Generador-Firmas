@@ -1,0 +1,18 @@
+# Dependencies
+/node_modules
+/.pnpm-store
+
+# Next.js build output
+/.next
+/out
+
+# IDE and System files
+.DS_Store
+*.pem
+*.log
+
+# Git & Agent artifacts
+.git
+.gitignore
+.agents
+.gemini
