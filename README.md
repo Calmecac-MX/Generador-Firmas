@@ -1,8 +1,8 @@
-# Generador de Firmas de Correo — Calmécac
-
 <p align="center">
-  <img src="./src/assets/favicon-blanco.ico" alt="Calmécac Logo" width="80" height="80" />
+  <img src="./src/assets/favicon-blanco.ico" alt="Calmécac Logo" width="100" height="100" />
 </p>
+
+# Generador de Firmas de Correo — Calmécac
 
 Un generador de firmas para correo electrónico moderno, potente y de alto rendimiento desarrollado para **Calmécac** ([calmecac.lat](https://calmecac.lat)).
 
