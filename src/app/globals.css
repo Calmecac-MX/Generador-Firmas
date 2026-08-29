@@ -1,24 +1,44 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-  :root {
-    --font-inter: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --font-mono: 'JetBrains Mono', 'Courier New', Courier, monospace;
-  }
+@theme {
+  --color-calmecac-dark: #08080a;
+  --color-calmecac-card: #111317;
+  --color-calmecac-cardHover: #181c23;
+  --color-calmecac-border: #202732;
+  --color-calmecac-orange: #10b981;
+  --color-calmecac-orangeHover: #059669;
+  --color-calmecac-emerald: #10b981;
+  --color-calmecac-emeraldHover: #059669;
+  --color-calmecac-amber: #f59e0b;
+  --color-calmecac-gold: #d97706;
+  --color-calmecac-cyan: #06b6d4;
+  --color-calmecac-text: #f4f4f5;
+  --color-calmecac-muted: #a1a1aa;
+  --color-calmecac-subtle: #71717a;
 
-  body {
-    background-color: #08080a;
-    color: #f4f4f5;
-    font-family: var(--font-inter);
-    overflow-x: hidden;
-  }
+  --shadow-glow: 0 0 20px rgba(16, 185, 129, 0.3);
+  --shadow-glow-amber: 0 0 20px rgba(245, 158, 11, 0.25);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-inter);
-    letter-spacing: -0.02em;
-  }
+  --font-sans: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', Courier, monospace;
+}
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #08080a;
+  color: #f4f4f5;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-inter);
+  letter-spacing: -0.02em;
 }
 
 /* Custom Scrollbar for editor tabs & preview */
